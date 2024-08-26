@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Factory</servlet-name>
+  	<display-name>Factory</display-name>
+  	<description></description>
+  	<servlet-class>com.myCart.Factory</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.myCart.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LginServlet</servlet-name>
+  	<display-name>LginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.myCart.LginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CategoryServlet</servlet-name>
+  	<display-name>CategoryServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.myCart.CategoryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Factory</servlet-name>
+  	<url-pattern>/Factory</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LginServlet</servlet-name>
+  	<url-pattern>/LginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CategoryServlet</servlet-name>
+  	<url-pattern>/CategoryServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
